@@ -16,16 +16,30 @@ public class Suggestion {
 
     public class Comfort{
 
+        public String type;
+
+        public String brf;
+
         @SerializedName("txt")
         public String info;
     }
 
     public class CarWash {
+
+        public String type;
+
+        public String brf;
+
         @SerializedName("txt")
         public String info;
     }
 
     public class Sport {
+
+        public String type;
+
+        public String brf;
+
         @SerializedName("txt")
         public String info;
     }
